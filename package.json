@@ -1,0 +1,27 @@
+{
+  "name": "cv-maker",
+  "version": "0.1.0",
+  "allowScripts": {
+    "@tailwindcss/oxide": true,
+    "@tailwindcss/turbopack": true
+  },
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3901",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
